@@ -25,6 +25,7 @@ Inspection – Pick and place robots used for inspection applications are equipp
 
 
 ### PROCEDURE:
+```
 Step1:
 Select a robot New robots can be added from a local drive or from the online library
 
@@ -42,14 +43,12 @@ Create Targets Robot positions are recorded as Targets. Follow these steps to cr
 
 Step6:
 Select Program Teach Target (Ctrl+T) or the appropriate button in the toolbar to create a new target Rename the target to Approach.	 
-	 
-	 
+```	 	 
 	 
 
+## Program:
 
-### PROGRAM 
- 
- 
+ ```
 def Main_program():
   
   #--------------------------
@@ -102,8 +101,9 @@ def Main_program():
   # End of main program
   
 Main_program()
- 
+ ```
  ## Output
+ 
  ## Pick and Place Simulation:
  ![image](https://github.com/Surekaelango/Experiment-02--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/127727904/d143a500-800f-4f20-ac2d-5e659b09012e)
  ## Pick:
